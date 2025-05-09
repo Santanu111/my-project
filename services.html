@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - CDM Swiss</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <header>
+        <!-- Navbar from 3.a goes here -->
+        <nav class="bg-white shadow-md sticky top-0 z-50">
+            <div class="container mx-auto px-6 py-3 md:flex md:justify-between md:items-center">
+              <div class="flex justify-between items-center">
+                <div>
+                  <a href="index.html" class="text-2xl font-bold text-gray-800 hover:text-blue-600">
+                    CDM<span class="text-blue-600">Swiss</span>
+                  </a>
+                  <p class="text-xs text-gray-500 -mt-1">Clinical Data Management</p>
+                </div>
+          
+                <!-- Mobile menu button -->
+                <div class="flex md:hidden">
+                  <button type="button" id="menu-button" class="text-gray-500 hover:text-gray-600 focus:outline-none focus:text-gray-600" aria-label="toggle menu" aria-expanded="false" aria-controls="mobile-menu">
+                    <svg viewBox="0 0 24 24" class="h-6 w-6 fill-current">
+                      <path fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+          
+              <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
+              <div id="mobile-menu" class="md:flex items-center hidden">
+                <div class="flex flex-col md:flex-row md:mx-6">
+                  <a class="nav-link my-2 text-gray-700 hover:text-blue-600 md:mx-4 md:my-0" href="index.html">Home</a>
+                  <a class="nav-link my-2 text-gray-700 hover:text-blue-600 md:mx-4 md:my-0" href="about.html">About Us</a>
+                  <a class="nav-link my-2 text-gray-700 hover:text-blue-600 md:mx-4 md:my-0" href="services.html">Services</a>
+                  <a class="nav-link my-2 text-gray-700 hover:text-blue-600 md:mx-4 md:my-0" href="contact.html">Contact</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        <nav class="bg-white shadow-md sticky top-0 z-50">
+          <div class="container mx-auto px-6 py-3 md:flex md:justify-between md:items-center">
+            <div class="flex justify-between items-center">
+              <div>
+                <a href="index.html" class="text-2xl font-bold text-gray-800 hover:text-blue-600">
+                  CDM<span class="text-blue-600">Swiss</span>
+                </a>
+                <p class="text-xs text-gray-500 -mt-1">Clinical Data Management</p>
+              </div>
+              <div class="flex md:hidden">
+                <button type="button" id="menu-button" class="text-gray-500 hover:text-gray-600 focus:outline-none focus:text-gray-600" aria-label="toggle menu" aria-expanded="false" aria-controls="mobile-menu">
+                  <svg viewBox="0 0 24 24" class="h-6 w-6 fill-current">
+                    <path fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div id="mobile-menu" class="md:flex items-center hidden">
+              <div class="flex flex-col md:flex-row md:mx-6">
+                <a class="nav-link my-2 text-gray-700 hover:text-blue-600 md:mx-4 md:my-0" href="index.html">Home</a>
+                <a class="nav-link my-2 text-gray-700 hover:text-blue-600 md:mx-4 md:my-0" href="about.html">About Us</a>
+                <a class="nav-link my-2 text-gray-700 hover:text-blue-600 md:mx-4 md:my-0" href="services.html">Services</a>
+                <a class="nav-link my-2 text-gray-700 hover:text-blue-600 md:mx-4 md:my-0" href="contact.html">Contact</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <h1 class="text-4xl md:text-5xl font-bold text-center mb-4 text-gray-800">
+                    Our Comprehensive <span class="swiss-primary">Services</span>
+                </h1>
+                <p class="text-xl text-gray-600 text-center max-w-3xl mx-auto mb-16">
+                    We offer a full spectrum of clinical data management services, tailored to meet the unique needs of your research.
+                </p>
+
+                <div class="space-y-12">
+                    <!-- Service 1 -->
+                    <div id="data-collection" class="md:grid md:grid-cols-12 md:gap-8 items-center p-8 rounded-lg shadow-lg border-l-4 border-blue-600 bg-gray-50">
+                        <div class="md:col-span-4 mb-6 md:mb-0">
+                            <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="Data Collection and Validation" class="rounded-md object-cover w-full">
+                        </div>
+                        <div class="md:col-span-8">
+                            <h2 class="text-2xl font-semibold mb-3 swiss-primary">Data Collection & Validation</h2>
+                            <p class="text-gray-700 mb-2">We design and implement robust eCRFs (Electronic Case Report Forms) and manage EDC (Electronic Data Capture) systems. Our processes include rigorous data validation checks to ensure accuracy and completeness from the outset.</p>
+                            <ul class="list-disc list-inside text-gray-600 space-y-1">
+                                <li>CRF/eCRF Design and Development</li>
+                                <li>EDC System Setup and Management</li>
+                                <li>Data Entry and Query Management</li>
+                                <li>Edit Check Programming and Validation</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Service 2 -->
+                    <div id="database-design" class="md:grid md:grid-cols-12 md:gap-8 items-center p-8 rounded-lg shadow-lg border-l-4 border-blue-600 bg-gray-50">
+                         <div class="md:col-span-4 mb-6 md:mb-0 md:order-2">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="Database Design" class="rounded-md object-cover w-full">
+                        </div>
+                        <div class="md:col-span-8 md:order-1">
+                            <h2 class="text-2xl font-semibold mb-3 swiss-primary">Clinical Database Design & Development</h2>
+                            <p class="text-gray-700 mb-2">Our experts design and develop secure, compliant, and user-friendly clinical databases. We ensure that databases are optimized for data integrity, efficient querying, and regulatory requirements (e.g., CDISC standards).</p>
+                            <ul class="list-disc list-inside text-gray-600 space-y-1">
+                                <li>Needs Assessment and Specification Development</li>
+                                <li>Database Build and UAT (User Acceptance Testing)</li>
+                                <li>Data Migration and Integration</li>
+                                <li>CDISC SDTM/ADaM Implementation Support</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div id="quality-control" class="md:grid md:grid-cols-12 md:gap-8 items-center p-8 rounded-lg shadow-lg border-l-4 border-blue-600 bg-gray-50">
+                        <div class="md:col-span-4 mb-6 md:mb-0">
+                            <img src="https://images.unsplash.com/photo-1542744095-291d1f67b221?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="Quality Control" class="rounded-md object-cover w-full">
+                        </div>
+                        <div class="md:col-span-8">
+                            <h2 class="text-2xl font-semibold mb-3 swiss-primary">Data Quality Control & Assurance</h2>
+                            <p class="text-gray-700 mb-2">We implement comprehensive QC/QA plans to ensure data accuracy, consistency, and reliability. This includes medical coding (MedDRA, WHODrug), SAE reconciliation, and regular data reviews.</p>
+                             <ul class="list-disc list-inside text-gray-600 space-y-1">
+                                <li>Development of Data Management Plan (DMP)</li>
+                                <li>Medical Coding and SAE Reconciliation</li>
+                                <li>Data Audits and Quality Checks</li>
+                                <li>Database Lock Procedures</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Service 4 -->
+                    <div id="compliance" class="md:grid md:grid-cols-12 md:gap-8 items-center p-8 rounded-lg shadow-lg border-l-4 border-blue-600 bg-gray-50">
+                        <div class="md:col-span-4 mb-6 md:mb-0 md:order-2">
+                           <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="Regulatory Compliance" class="rounded-md object-cover w-full">
+                       </div>
+                       <div class="md:col-span-8 md:order-1">
+                           <h2 class="text-2xl font-semibold mb-3 swiss-primary">Regulatory Compliance & Reporting</h2>
+                           <p class="text-gray-700 mb-2">Navigating the complex regulatory landscape is crucial. We ensure full compliance with international standards such as FDA 21 CFR Part 11, ICH-GCP, HIPAA, and GDPR. We also assist in preparing data for regulatory submissions.</p>
+                            <ul class="list-disc list-inside text-gray-600 space-y-1">
+                               <li>SOP Development and Implementation</li>
+                               <li>Compliance with 21 CFR Part 11, GCP, GDPR</li>
+                               <li>Data Archiving and Retention</li>
+                               <li>Support for Regulatory Submissions</li>
+                           </ul>
+                       </div>
+                   </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-gray-300">
+        <!-- Footer from 3.b goes here -->
+        <div class="container mx-auto px-6 py-8 text-center text-gray-600">
+            <p>© <span id="currentYear"></span> CDM Swiss. All rights reserved.</p>
+            <p class="text-sm">Precision in Clinical Data Management.</p>
+          </div>
+          <script>
+            document.getElementById('currentYear').textContent = new Date().getFullYear();
+          </script>
+        <div class="container mx-auto px-6 py-8 text-center">
+          <p>© <span id="currentYear"></span> CDM Swiss. All rights reserved.</p>
+          <p class="text-sm">Precision in Clinical Data Management.</p>
+        </div>
+        <script>
+          document.getElementById('currentYear').textContent = new Date().getFullYear();
+        </script>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+/* css/style.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Swiss-inspired styles (minimal, as Tailwind handles most) */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* Common sans-serif for Swiss feel */
+  @apply text-gray-800 bg-gray-50; /* Default text and light background */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-semibold;
+}
+
+/* Optional: A slightly more prominent primary color for Swiss style */
+.swiss-primary {
+  /* Example: A strong, professional blue or red */
+  /* @apply text-blue-700; or @apply text-red-700; */
+  @apply text-blue-600;
+}
+
+.swiss-bg-primary {
+  /* @apply bg-blue-700; or @apply bg-red-700; */
+  @apply bg-blue-600;
+}
+
+/* Active navigation link style */
+.nav-link.active {
+  @apply text-blue-600 font-semibold border-b-2 border-blue-600;
+}
+
+/* Simple button style */
+.btn {
+  @apply px-6 py-3 rounded-md transition-colors duration-300;
+}
+
+.btn-primary {
+  @apply bg-blue-600 text-white hover:bg-blue-700;
+}
+
+.btn-outline {
+  @apply border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white;
+}
+
+/* Grid lines for visual structure (optional, for Swiss design emphasis) */
+.swiss-grid-line {
+  @apply border-gray-300;
+}

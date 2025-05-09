@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact CDM Swiss - Get In Touch</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <header>
+        <!-- Navbar from 3.a goes here -->
+        <nav class="bg-white shadow-md sticky top-0 z-50">
+            <div class="container mx-auto px-6 py-3 md:flex md:justify-between md:items-center">
+              <div class="flex justify-between items-center">
+                <div>
+                  <a href="index.html" class="text-2xl font-bold text-gray-800 hover:text-blue-600">
+                    CDM<span class="text-blue-600">Swiss</span>
+                  </a>
+                  <p class="text-xs text-gray-500 -mt-1">Clinical Data Management</p>
+                </div>
+          
+                <!-- Mobile menu button -->
+                <div class="flex md:hidden">
+                  <button type="button" id="menu-button" class="text-gray-500 hover:text-gray-600 focus:outline-none focus:text-gray-600" aria-label="toggle menu" aria-expanded="false" aria-controls="mobile-menu">
+                    <svg viewBox="0 0 24 24" class="h-6 w-6 fill-current">
+                      <path fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+          
+              <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
+              <div id="mobile-menu" class="md:flex items-center hidden">
+                <div class="flex flex-col md:flex-row md:mx-6">
+                  <a class="nav-link my-2 text-gray-700 hover:text-blue-600 md:mx-4 md:my-0" href="index.html">Home</a>
+                  <a class="nav-link my-2 text-gray-700 hover:text-blue-600 md:mx-4 md:my-0" href="about.html">About Us</a>
+                  <a class="nav-link my-2 text-gray-700 hover:text-blue-600 md:mx-4 md:my-0" href="services.html">Services</a>
+                  <a class="nav-link my-2 text-gray-700 hover:text-blue-600 md:mx-4 md:my-0" href="contact.html">Contact</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        <nav class="bg-white shadow-md sticky top-0 z-50">
+          <div class="container mx-auto px-6 py-3 md:flex md:justify-between md:items-center">
+            <div class="flex justify-between items-center">
+              <div>
+                <a href="index.html" class="text-2xl font-bold text-gray-800 hover:text-blue-600">
+                  CDM<span class="text-blue-600">Swiss</span>
+                </a>
+                <p class="text-xs text-gray-500 -mt-1">Clinical Data Management</p>
+              </div>
+              <div class="flex md:hidden">
+                <button type="button" id="menu-button" class="text-gray-500 hover:text-gray-600 focus:outline-none focus:text-gray-600" aria-label="toggle menu" aria-expanded="false" aria-controls="mobile-menu">
+                  <svg viewBox="0 0 24 24" class="h-6 w-6 fill-current">
+                    <path fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div id="mobile-menu" class="md:flex items-center hidden">
+              <div class="flex flex-col md:flex-row md:mx-6">
+                <a class="nav-link my-2 text-gray-700 hover:text-blue-600 md:mx-4 md:my-0" href="index.html">Home</a>
+                <a class="nav-link my-2 text-gray-700 hover:text-blue-600 md:mx-4 md:my-0" href="about.html">About Us</a>
+                <a class="nav-link my-2 text-gray-700 hover:text-blue-600 md:mx-4 md:my-0" href="services.html">Services</a>
+                <a class="nav-link my-2 text-gray-700 hover:text-blue-600 md:mx-4 md:my-0" href="contact.html">Contact</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="py-16 md:py-24">
+            <div class="container mx-auto px-6">
+                <h1 class="text-4xl md:text-5xl font-bold text-center mb-4 text-gray-800">
+                    Get in <span class="swiss-primary">Touch</span>
+                </h1>
+                <p class="text-xl text-gray-600 text-center max-w-2xl mx-auto mb-12">
+                    We're here to answer your questions and discuss how our clinical data management services can support your research.
+                </p>
+
+                <div class="md:grid md:grid-cols-2 gap-12 bg-white p-8 md:p-12 rounded-lg shadow-xl">
+                    <!-- Contact Form -->
+                    <div>
+                        <h2 class="text-2xl font-semibold mb-6 swiss-primary">Send us a Message</h2>
+                        <form action="#" method="POST"> <!-- Add your form processing URL -->
+                            <div class="mb-4">
+                                <label for="name" class="block text-gray-700 font-medium mb-2">Full Name</label>
+                                <input type="text" id="name" name="name" required
+                                       class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                            </div>
+                            <div class="mb-4">
+                                <label for="email" class="block text-gray-700 font-medium mb-2">Email Address</label>
+                                <input type="email" id="email" name="email" required
+                                       class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                            </div>
+                            <div class="mb-4">
+                                <label for="subject" class="block text-gray-700 font-medium mb-2">Subject</label>
+                                <input type="text" id="subject" name="subject"
+                                       class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                            </div>
+                            <div class="mb-6">
+                                <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
+                                <textarea id="message" name="message" rows="5" required
+                                          class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"></textarea>
+                            </div>
+                            <div>
+                                <button type="submit" class="btn btn-primary w-full md:w-auto">
+                                    Send Message
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Contact Information -->
+                    <div class="mt-12 md:mt-0">
+                        <h2 class="text-2xl font-semibold mb-6 swiss-primary">Contact Details</h2>
+                        <div class="space-y-6 text-gray-700">
+                            <div>
+                                <h3 class="font-medium text-lg">Address:</h3>
+                                <p>123 Swiss Precision Ave,<br>Geneva, CH-1200, Switzerland</p>
+                            </div>
+                            <div>
+                                <h3 class="font-medium text-lg">Phone:</h3>
+                                <p><a href="tel:+41221234567" class="hover:text-blue-600">+41 22 123 45 67</a></p>
+                            </div>
+                            <div>
+                                <h3 class="font-medium text-lg">Email:</h3>
+                                <p><a href="mailto:info@cdmswiss.com" class="hover:text-blue-600">info@cdmswiss.com</a></p>
+                            </div>
+                             <div>
+                                <h3 class="font-medium text-lg">Business Hours:</h3>
+                                <p>Monday - Friday: 9:00 AM - 5:00 PM (CET)</p>
+                            </div>
+                        </div>
+                        <!-- Optional: Map Placeholder -->
+                        <div class="mt-8 bg-gray-200 h-64 rounded-md flex items-center justify-center text-gray-500">
+                            Map Placeholder (e.g., Google Maps Embed)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-gray-300">
+        <!-- Footer from 3.b goes here -->
+        <div class="container mx-auto px-6 py-8 text-center text-gray-600">
+            <p>© <span id="currentYear"></span> CDM Swiss. All rights reserved.</p>
+            <p class="text-sm">Precision in Clinical Data Management.</p>
+          </div>
+          <script>
+            document.getElementById('currentYear').textContent = new Date().getFullYear();
+          </script>
+        <div class="container mx-auto px-6 py-8 text-center">
+          <p>© <span id="currentYear"></span> CDM Swiss. All rights reserved.</p>
+          <p class="text-sm">Precision in Clinical Data Management.</p>
+        </div>
+        <script>
+          document.getElementById('currentYear').textContent = new Date().getFullYear();
+        </script>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
